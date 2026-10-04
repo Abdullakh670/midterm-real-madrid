@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Матчи и Билеты</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark rm-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase" href="index.html">
+                <span class="text-warning">Real</span> Madrid
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="matches.html">Матчи и Билеты</a></li>
+                    <li class="nav-item"><a class="nav-link" href="history.html">История (Шалкар)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="store.html">Магазин (Шалкар)</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <h2 class="text-center mb-4 rm-title">Расписание матчей</h2>
+        <div class="table-responsive shadow-sm rounded">
+            <table class="table table-hover table-bordered align-middle text-center mb-0">
+                <thead class="rm-table-header text-white">
+                    <tr>
+                        <th scope="col">Дата</th>
+                        <th scope="col">Турнир</th>
+                        <th scope="col">Соперник</th>
+                        <th scope="col">Стадион</th>
+                        <th scope="col">Статус</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>15 Октября 2026</td>
+                        <td>Ла Лига</td>
+                        <td>Атлетико Мадрид</td>
+                        <td>Сантьяго Бернабеу</td>
+                        <td><span class="badge bg-success">Билеты в продаже</span></td>
+                    </tr>
+                    <tr>
+                        <td>22 Октября 2026</td>
+                        <td>Лига Чемпионов</td>
+                        <td>Бавария</td>
+                        <td>Сантьяго Бернабеу</td>
+                        <td><span class="badge bg-success">Билеты в продаже</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 rm-title">Заказ билетов</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <form class="bg-white p-4 rounded shadow-sm">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Выберите матч</label>
+                            <select class="form-select" required>
+                                <option value="">-- Выберите матч --</option>
+                                <option value="atletico">vs Атлетико Мадрид</option>
+                                <option value="bayern">vs Бавария</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Количество билетов</label>
+                            <input type="number" class="form-control" min="1" max="4" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Электронная почта</label>
+                            <input type="email" class="form-control" placeholder="name@example.com" required>
+                        </div>
+                        <button type="submit" class="btn btn-warning w-100 fw-bold text-dark">Оформить заказ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rm-navbar text-white text-center py-3">
+        <p class="mb-0">© 2026 Real Madrid Fan Page. IT 2510 Project.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

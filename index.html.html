@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Madrid - Главная</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark rm-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase" href="index.html">
+                <span class="text-warning">Real</span> Madrid
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="matches.html">Матчи и Билеты</a></li>
+                    <li class="nav-item"><a class="nav-link" href="history.html">История (Шалкар)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="store.html">Магазин (Шалкар)</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="container mt-5 pt-4 pb-5">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 order-1 order-md-1 text-center text-md-start">
+                <h1 class="display-4 fw-bold">¡Hala Madrid!</h1>
+                <p class="lead text-muted">Добро пожаловать на страницу лучшего клуба 20 века. Следите за матчами, покупайте билеты и поддерживайте команду.</p>
+                <div class="p-3 mb-3 bg-light rounded border">
+                    <h5 class="text-primary mb-1">Последний матч</h5>
+                    <strong>Реал Мадрид 3 - 1 Барселона</strong>
+                </div>
+                <a href="matches.html" class="btn btn-warning btn-lg fw-bold text-dark">Купить билеты</a>
+            </div>
+            <div class="col-12 col-md-6 order-2 order-md-2 mt-4 mt-md-0 d-none d-md-block text-center">
+                <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/8/8a/FC_Real_Madrid_Logo.svg/500px-FC_Real_Madrid_Logo.svg.png" alt="Real Madrid Logo" class="img-fluid" style="max-height: 350px;">
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 rm-title">Последние новости</h2>
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <span class="badge bg-warning text-dark mb-2">Ла Лига</span>
+                            <h5 class="card-title">Победа на Бернабеу</h5>
+                            <p class="card-text">Команда одержала уверенную победу в домашнем матче благодаря дублю Винисиуса.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Лига Чемпионов</span>
+                            <h5 class="card-title">Готовимся к финалу</h5>
+                            <p class="card-text">Анчелотти провел открытую тренировку перед решающим матчем еврокубка.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Клуб</span>
+                            <h5 class="card-title">Обновление стадиона</h5>
+                            <p class="card-text">Новая крыша Сантьяго Бернабеу успешно прошла тестирование в дождливую погоду.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="squad" class="custom-squad-section">
+        <div class="custom-container">
+            <h2 class="custom-heading">Основной состав</h2>
+            <div class="custom-grid">
+                <div class="player-card">
+                    <div class="player-photo">
+                        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Vinicius_Jr_2018_(cropped).jpg?width=600" alt="Vinícius Jr.">
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">Vinícius Jr.</h3>
+                        <p class="player-role">Нападающий</p>
+                    </div>
+                    <div class="player-stats">
+                        <p>Голы: 15</p>
+                        <p>Ассисты: 8</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="player-photo">
+                        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Jude_Bellingham_-_240422_190551-2_(cropped).jpg?width=600" alt="Jude Bellingham">
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">Jude Bellingham</h3>
+                        <p class="player-role">Полузащитник</p>
+                    </div>
+                    <div class="player-stats">
+                        <p>Голы: 20</p>
+                        <p>Ассисты: 6</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="player-photo">
+                        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Thibaut_Courtois_at_the_2018_World_Cup_(cropped).jpg?width=600" alt="Thibaut Courtois">
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">Thibaut Courtois</h3>
+                        <p class="player-role">Вратарь</p>
+                    </div>
+                    <div class="player-stats">
+                        <p>Сухие матчи: 12</p>
+                        <p>Сейвы: 45</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rm-navbar text-white text-center py-3">
+        <p class="mb-0">© 2026 Real Madrid Fan Page. IT 2510 Project.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
