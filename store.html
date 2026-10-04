@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Store - Real Madrid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark rm-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase" href="index.html">
+                <span class="text-warning">Real</span> Madrid
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="matches.html">Matches & Tickets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="history.html">History</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="store.html">Store</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-5 rm-title">Official Store</h2>
+        
+        <div class="row">
+            <!-- Sidebar with Filters -->
+            <aside class="col-lg-3 mb-4">
+                <div class="card border-0 shadow-sm p-4">
+                    <h5 class="fw-bold mb-4">Filters</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label text-muted small text-uppercase fw-bold">Category</label>
+                            <select class="form-select">
+                                <option>All items</option>
+                                <option>Match Kits</option>
+                                <option>Training Wear</option>
+                                <option>Accessories</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label text-muted small text-uppercase fw-bold">Size</label>
+                            <select class="form-select">
+                                <option>Select size</option>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-warning w-100 fw-bold text-dark">Apply Filter</button>
+                    </form>
+                </div>
+            </aside>
+
+            <!-- Product Grid -->
+            <main class="col-lg-9">
+                <div class="row g-4">
+                    <!-- Product 1 -->
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card h-100 border-0 shadow-sm text-center p-3">
+                            <div class="bg-white py-4 mb-3 rounded" style="font-size: 5rem;">👕</div>
+                            <div class="card-body p-0">
+                                <h6 class="card-title fw-bold">Home Kit 26/27</h6>
+                                <p class="text-primary fw-bold fs-5">120 €</p>
+                                <button class="btn btn-outline-dark w-100">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card h-100 border-0 shadow-sm text-center p-3">
+                            <div class="bg-dark py-4 mb-3 rounded" style="font-size: 5rem;">👕</div>
+                            <div class="card-body p-0">
+                                <h6 class="card-title fw-bold">Away Kit 26/27</h6>
+                                <p class="text-primary fw-bold fs-5">120 €</p>
+                                <button class="btn btn-outline-dark w-100">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card h-100 border-0 shadow-sm text-center p-3">
+                            <div class="bg-white py-4 mb-3 rounded border" style="font-size: 5rem;">⚽</div>
+                            <div class="card-body p-0">
+                                <h6 class="card-title fw-bold">Official UCL Ball</h6>
+                                <p class="text-primary fw-bold fs-5">45 €</p>
+                                <button class="btn btn-outline-dark w-100">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product 4 -->
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card h-100 border-0 shadow-sm text-center p-3">
+                            <div class="bg-white py-4 mb-3 rounded border" style="font-size: 5rem;">🧣</div>
+                            <div class="card-body p-0">
+                                <h6 class="card-title fw-bold">Fan Scarf</h6>
+                                <p class="text-primary fw-bold fs-5">25 €</p>
+                                <button class="btn btn-outline-dark w-100">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer class="rm-navbar text-white text-center py-3 mt-auto">
+        <p class="mb-0">© 2026 Real Madrid Fan Page. IT 2510 Project.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
